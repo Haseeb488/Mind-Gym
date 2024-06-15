@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "739449594042",
+    "firebase_url": "https://quiz-8f36e-default-rtdb.firebaseio.com",
+    "project_id": "quiz-8f36e",
+    "storage_bucket": "quiz-8f36e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739449594042:android:0f2f3620471a29da19e283",
+        "android_client_info": {
+          "package_name": "com.example.mindgym"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAD8rEpUJJhFpUESgHPbI78HUdfzmgKOQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739449594042:android:0d32bdecc2d9518219e283",
+        "android_client_info": {
+          "package_name": "com.example.questionnaire"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAD8rEpUJJhFpUESgHPbI78HUdfzmgKOQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
