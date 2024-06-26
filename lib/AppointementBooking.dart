@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-
 import 'package:intl/intl.dart';
 import 'package:mindgym/CardScreen.dart';
 import 'package:mindgym/Global.dart';
-import 'package:mindgym/confirmationScreen.dart';
+
+import 'TransactionSuccessScreen.dart';
+
 
 class AppointmentBookingForm extends StatefulWidget {
   const AppointmentBookingForm({super.key});
@@ -47,7 +48,7 @@ class _AppointmentBookingFormState extends State<AppointmentBookingForm> {
         // Add your logic here for Confirm Booking
 
         Navigator.push(
-            context, MaterialPageRoute(builder: (c) => ConfirmationScreen()));
+            context, MaterialPageRoute(builder: (c) => TransactionSuccessScreen()));
       },
       style: TextButton.styleFrom(
         backgroundColor: Colors.green,
